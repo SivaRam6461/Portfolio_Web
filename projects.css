@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-pj{
+   
+    width: 100%;
+    height: 150vh;
+    background-color: whitesmoke;
+}
+
+nav{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(186, 184, 184);
+}
+nav ul{
+    padding-left: 120px;
+}
+nav ul li{
+   display: inline-block;
+     margin:  30px 20px; 
+     
+     
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #1f2022;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    /* color: orange; */
+    
+background: -webkit-linear-gradient(#f08409, #d94f5f);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.title{
+display: flex;
+justify-content: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 30px;
+font-size: 60px;
+font-weight: 600;
+
+
+background: -webkit-linear-gradient(#f08409, #d94f5f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+}
+
+
+.pj-main-box{
+    background-color: rgba(186, 184, 184, 0.437);
+    display: flex;
+    padding: 0px 0px;
+    margin: 40px 300px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,0.25); 
+    border-radius: 10px;
+}
+.pj-main-box .pj-box1{
+    padding: 100px  50px;
+    font-size: 18px;
+    
+}
+.pj-main-box .pj-box2 img{
+    height: 350px;
+    border-radius: 10px;
+}
+
+.main-pj2{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to right, #ff9900 0%, #cc0066 100%);
+   
+    
+    
+}
+.main-pj2 h1{
+    color: white;
+    padding-top: 80px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.main-pj2 button{
+padding: 15px;
+border-radius: 10px;
+background-color: transparent;
+border: 1px solid white;
+margin-left: 45%;
+margin-top: 20px;
+font-size: 18px;
+color: white;
+padding: 18px 30px;
+}
+
+.foorter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: whitesmoke;
+}
+.foorter p{
+    color: darkblue;
+}

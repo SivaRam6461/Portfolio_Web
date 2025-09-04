@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-ct{
+   
+    width: 100%;
+    height: 150vh;
+    background-color: whitesmoke;
+}
+
+nav{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(186, 184, 184);
+}
+nav ul{
+    padding-left: 120px;
+}
+nav ul li{
+   display: inline-block;
+     margin:  30px 20px; 
+     
+     
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #1f2022;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    /* color: orange; */
+    
+background: -webkit-linear-gradient(#f08409, #d94f5f);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ct-box{
+    background-color: rgba(186, 184, 184, 0.289);
+    display: flex;
+    padding: 0px 0px;
+    margin: 40px 180px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,0.25); 
+    border-radius: 10px;
+    justify-content: center;
+   
+}
+.ct-hd .icon{
+    font-size: 70px;
+    
+background: -webkit-linear-gradient(#f08409, #d94f5f);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left: 200px;
+padding-top: 50px;
+   
+}
+.heading{
+    margin-left: 120px;
+    font-size: calc(1.375rem + 1.5vw);
+    /* font-weight: 500; */
+    line-height: 1.2;
+}
+.ct-hd p{
+    margin-left: 150px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+ .forms{
+  padding: 20px 0px;
+  
+ }
+ .forms input{
+    padding: 20px 10px ;
+  margin-top: 15px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.844);
+ }
+ .forms button{
+    padding: 10px 10px ;
+  margin-top: 15px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.844);
+       color: white;
+background-color:#e47e17 ;
+font-size: 20px;
+margin-bottom: 50px;
+ }
+
+ .foorter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color:  rgb(11, 11, 53);
+}
+.foorter p{
+    color: whitesmoke;
+}
+
